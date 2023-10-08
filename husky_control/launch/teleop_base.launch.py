@@ -32,7 +32,7 @@ def generate_launch_description():
     )
 
     ld = LaunchDescription()
-    ld.add_action(node_interactive_marker_twist_server)
+    # ld.add_action(node_interactive_marker_twist_server)
     ld.add_action(node_twist_mux)
     return ld
 
